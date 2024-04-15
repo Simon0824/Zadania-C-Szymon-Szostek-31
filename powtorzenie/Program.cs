@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿class plikglowny
+{
+    static void Main(string[] args)
+    {
+
+        tabliczka.wyswietl(); 
+
+       
+    }
+}
