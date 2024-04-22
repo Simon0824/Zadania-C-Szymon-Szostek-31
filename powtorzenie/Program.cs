@@ -7,5 +7,6 @@ class plikglowny
         tablice tabliczka = new tablice();
         int[] tab = tabliczka.Tworzenie_tablicy();
         tabliczka.Wyswietl(tab);
+        tabliczka.Sortowanie_babelkowe();
     }
 }
