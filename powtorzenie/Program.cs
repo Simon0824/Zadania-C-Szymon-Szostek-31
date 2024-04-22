@@ -5,6 +5,7 @@ class plikglowny
     static void Main(string[] args)
     {
         tablice tabliczka = new tablice();
-        tabliczka.wyswietl(); 
+        int[] tab = tabliczka.Tworzenie_tablicy();
+        tabliczka.Wyswietl(tab);
     }
 }
